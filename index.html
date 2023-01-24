@@ -5,25 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
     <script src="script.js" defer></script>
     <title>The oddin project's Form Assignment</title>
   </head>
   <body>
     <div class="container">
       <div class="img">
-        <img src="/img/road.jpg" alt="a road with threes on both sides" />
+        <div class="img__logo">
+          <img src="/img/odin.png" alt="odin's project logo" />
+          <h1 class="img__header">SIGN-UP FORM</h1>
+        </div>
       </div>
       <div class="registration-form">
         <div class="registration-form__header">
           <p>
             This is not a real online service! You know you need something like
             this in your life to help you realize your deepest dreams. Sign up
-            <span>now</span>to get started
+            <span>now</span> to get started
           </p>
-          <p>You <span>know</span>you want to.</p>
+          <p>You <span>know</span> you want to.</p>
         </div>
         <div class="registration-form__body">
-          <h2>Let's do this!</h2>
+          <h3>Let's do this!</h3>
           <form action="" method="post">
             <div class="registration-form__input">
               <label for="name">first name</label>
@@ -53,7 +63,10 @@
             </div>
           </form>
         </div>
-        <div class="registration-form__btn"></div>
+        <div class="registration-form__btn">
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="">Log in</a></p>
+        </div>
       </div>
     </div>
   </body>
